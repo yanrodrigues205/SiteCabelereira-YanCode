@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Hurricane&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,200;1,500&family=Montserrat:ital,wght@1,100&family=Roboto+Condensed:ital,wght@0,300;1,400&display=swap');
+header{
+    position: relative;
+    top: -1.3vw;
+    left: 0;
+    width: 100%; 
+    background-color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+}
+h3{
+    background-color: rgb(161, 161, 161);
+    top: 1.5vw;
+    text-align: right;
+    font-size: calc(1.5vw);
+    padding: 1vw;
+    opacity: 0.8;
+}
+.sair{
+    position: absolute;
+    text-decoration: none;
+    color: red;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: oblique;
+    font-size: calc(2vw);
+    top: 1vw;
+    left: 1vw;
+    opacity: 0.7;
+    transition: 100ms;
+}
+body{
+    background-color: grey;
+}
+.pesquisa{
+    width: 22vw;
+    height: 1.3vw;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: calc(1.2vw);
+    border-radius: 1vw;
+}
+.bt{
+    width: 7vw;
+    height: 1.68vw;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: calc(1.2vw);
+    border-radius: 1vw;
+}
+.cod{
+    position: relative;
+    width: 2vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+    
+}
+.nome{
+    position: relative;
+    width: 11vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+}
+.telefone{
+    position: relative;
+    width: 10vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+}
+.email{
+    position: relative;
+    width: 17vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+}
+.senha{
+    position: relative;
+    width: 9vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+}
+.endereco{
+    position: relative;
+    width: 17vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+}
+.cpf{
+    position: relative;
+    width: 6vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+}
+.lixeira{
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    background-color: white;
+    border: 0.1vw solid black;
+    padding: 0.5vw;
+   
+}
+.table{
+    position: relative;
+    background-color: white;
+    width: 87.5vw;
+    
+}
+.cod1{
+    position: relative;
+    width: 2vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+    margin-left: -0.29vw;
+    left: 0.1vw;
+    background-color: rgb(131, 255, 255);
+    font-style: oblique;
+    
+}
+.nome1{
+    position: relative;
+    width: 11vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+    margin-left: -0.28vw;
+    left: 0.1vw;
+    background-color: rgb(146, 255, 124);
+}
+.telefone1{
+    position: relative;
+    width: 10vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+    margin-left: -0.27vw;
+    left: 0.1vw;
+    background-color: rgb(146, 255, 124);
+}
+.email1{
+    position: relative;
+    width: 17vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+    margin-left: -0.28vw;
+    left: 0.1vw;
+    background-color: rgb(146, 255, 124);
+}
+
+.senha1{
+    position: relative;
+    width: 9vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+    margin-left: -0.28vw;
+    left: 0.1vw;
+    background-color: rgb(146, 255, 124);
+}
+.endereco1{
+    position: relative;
+    width: 17vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+    margin-left: -0.28vw;
+    left: 0.1vw;
+    background-color: rgb(146, 255, 124);
+}
+.cpf1{
+    position: relative;
+    width: 6vw;
+    height: 1vw;
+    display: inline-block;
+    border: 0.1vw solid black;
+    padding: 1vw;
+    margin-left: -0.28vw;
+    left: 0.1vw;
+    background-color: rgb(146, 255, 124);
+}
+
+.componentes{
+    position: relative;
+    background-color: white;
+    width: 87.2vw;
+    
+}
+.sair1{
+    display: none;
+}
+.nome:hover{
+background-color: rgb(252, 252, 76);
+}
+.cod:hover{
+background-color: rgb(255, 197, 7);
+}
+.telefone:hover{
+background-color: rgb(252, 252, 76);
+}
+.email:hover{
+background-color: rgb(252, 252, 76);
+}
+.senha:hover{
+background-color: rgb(252, 252, 76);
+}
+.cpf:hover{
+background-color: rgb(252, 252, 76);
+}
+.endereco:hover{
+background-color: rgb(252, 252, 76);
+}
+.table:hover {
+background-color: rgb(252, 252, 147);
+}
+.lixeira:hover{
+background-color: rgb(255, 0, 0);
+}
+
+.sair:hover{
+    opacity: 1;
+    font-size: calc(2.3vw);
+}
+.deletar{
+    display: none;
+}
+@media (max-width:580px) {
+    .pesquisa{
+        position: relative;
+        top: 6vw;
+        width: 90vw;
+        height: 6vw;
+        font-size: calc(5.5vw);
+        border-radius: 5vw;
+    }
+    .bt{
+        position: relative;
+        top: 10vw;
+        width: 30vw;
+        height: 7vw;
+        font-size: calc(5.5vw);
+        border-radius: 5vw;
+    }
+    .table{
+        width: 92.5vw;
+        left: -0.8vw;
+      top: 20vw;
+    }
+    .componentes{
+        width: 95vw;
+        top: 20vw;
+        background-color: transparent;
+    }
+    
+    .cod1{
+        height: 6vw;
+        margin-left: -1.2vw;
+        width: 10vw;
+    }
+    .nome1{
+        height: 6vw;
+        width: 27vw;
+        margin-left: -1.2vw;
+    }
+    .cpf1{
+        width: 25vw;
+        height: 6vw;
+        margin-left: -1.2vw;
+    }
+    .senha1{
+        height: 6vw;
+        width: 20vw;
+       margin-left: -1.2vw;
+    }
+    .cod{
+        height: 16vw;
+        width: 10vw;
+        word-wrap:break-word;
+        left: 0;
+        top: -5.2vw;
+    }
+    .nome{
+        height: 16vw;
+        width: 27vw;
+        word-wrap:break-word;
+        left: 0.1vw;
+    }
+    .cpf{
+        width: 25vw;
+        height: 16vw;
+        word-wrap:break-word;
+        left: 0.3vw;
+    }
+    .senha{
+        display: inline-block;
+        height: 16vw;
+        width: 20vw;
+        left: 0.5vw;
+        word-wrap: break-word;
+    }
+    .lixeira{
+        display: none;
+    }
+    .telefone1{
+        display: none;
+    }
+    .email1{
+        display: none;
+    }
+    .endereco1{
+        display: none;
+    }
+    .telefone{
+        display: none;
+    }
+    .email{
+        display: none;
+    }
+    .endereco{
+        display: none;
+    }
+    .deletar{
+        display: block;
+        font-size: calc(4vw);
+        text-decoration: none;
+        color: red;
+        padding: -1vw;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        font-size: calc(4vw);
+    }
+    .sair{
+       display: none;
+    }
+    .sair1{
+        font-size: calc(6vw);
+        color: red;
+        position: relative;
+        top: -2vw;
+    }
+}

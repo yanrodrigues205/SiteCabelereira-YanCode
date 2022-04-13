@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Hurricane&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,200;1,500&family=Montserrat:ital,wght@1,100&family=Roboto+Condensed:ital,wght@0,300;1,400&display=swap');
+
+body{
+    background:  linear-gradient(1000deg, rgb(255, 255, 255),rgb(240, 240, 240),rgb(228, 228, 228),rgb(216, 216, 216) );
+}
+.agenda{
+    background:  linear-gradient(1000deg, rgb(212, 202, 111),rgb(253, 239, 113),rgb(255, 242, 126),rgb(211, 202, 127) );
+    width: 30vw;
+    height: 15vw;
+}
+.desmarcar{
+    position: absolute;
+    text-decoration: none;
+    color: red;
+    font-size: calc(2vw);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    left: 62vw;
+    transition: 200ms;
+}
+.nome{
+    font-size: calc(1.3vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+.pesquisa{
+    width: 22vw;
+    height: 1.3vw;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: calc(1.2vw);
+    border-radius: 1vw;
+}
+.bt{
+    width: 7vw;
+    height: 1.68vw;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: calc(1.2vw);
+    border-radius: 1vw;
+}
+.item{
+    font-family:'Josefin Sans', sans-serif;
+    font-size: calc(1.2vw);
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.voltar{
+    text-decoration: none;
+    color: rgb(163, 0, 0);
+    font-family: 'Bungee', cursive;
+    position: fixed;
+    top: 50vw;
+}
+.voltar:hover{
+    text-decoration: underline;
+}
+.desmarcar:hover{
+    font-size: calc(2.3vw);
+}
+@media (max-width:580px){
+    .pesquisa{
+        width: 90vw;
+        height: 5vw;
+        border-radius: 5vw;
+        font-size: calc(5vw);
+    }
+    .bt{
+        margin-top: 6vw;
+        width: 40vw;
+        height: 7vw;
+        border-radius: 5vw;
+        font-size: calc(5vw);
+    }
+    .agenda{
+        width: 90vw;
+        height: 70vw;
+    }
+    .nome{
+        font-size: calc(6vw);
+    }
+    .item{
+        font-size: calc(5vw);
+    }
+    .voltar{
+        position: relative;
+        top: 1vw;
+    }
+    .desmarcar{
+        font-size: calc(7.8vw);
+        left: 85vw;
+    }
+}

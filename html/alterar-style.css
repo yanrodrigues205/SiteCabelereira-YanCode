@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,200;1,500&family=Montserrat:ital,wght@1,100&display=swap');
+body{
+    position: relative;
+    background: linear-gradient(30deg, rgb(250, 224, 228) , rgb(224, 159, 170), rgb(255, 140, 159));
+    height: 96vh;
+}
+form{
+    position: relative;
+    top: 1vw;
+}
+input[type='text']{
+    width: 30vw;
+    height: 2.2vw;
+    background-color: transparent;
+    border: 0.1vw solid black;
+    border-radius: 2vw;
+    text-align: center;
+    font-size: calc(1.2vw);
+    font-style: italic;
+    margin: 0.7vw;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+input[type='password']{
+    width: 30vw;
+    height: 2.2vw;
+    background-color: transparent;
+    border: 0.1vw solid black;
+    border-radius: 2vw;
+    text-align: center;
+    font-size: calc(1.2vw);
+    font-style: italic;
+    margin: 0.7vw;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+input[type='submit']{
+    width: 30vw;
+    height: 2.2vw;
+    background-color: transparent;
+    border: 0.1vw solid black;
+    border-radius: 2vw;
+    text-align: center;
+    font-size: calc(1.2vw);
+    font-style: italic;
+    margin: 0.7vw;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+h1{
+    top: -1.4vw;
+    color: rgb(255, 255, 255);
+    font-family:  'Montserrat', sans-serif;
+    background: linear-gradient(130deg, rgb(206, 102, 119), rgb(212, 72, 95),rgb(255, 56, 89));
+    position: relative;
+    display: block;
+    width: 100vw;
+    left: -0.58vw;
+    height: 8vw;
+}
+.location{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: block;
+    width: 100vw;
+    left: -0.58vw;
+    height: 2vw;
+    text-align: right;
+    font-size: calc(1.5vw);
+    top: -6.5vw;
+    letter-spacing: 0.3vw;
+    font-style: italic;
+}
+.frase{
+    position: relative;
+    color: white;
+    top: 0.7vw;
+  }
+.info{
+    position: relative;
+    background-color: rgba(248, 41, 41, 0.5);
+    box-sizing: border-box;
+    border: 0.1vw solid rgb(156, 0, 0);
+    height: 4vw;
+    width: 28vw;
+    top: -2vw;
+}
+.sair{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: calc(2vw);
+    top: -1vw;
+}
+.sair:hover{
+    color: red;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: calc(1.3vw);
+}
+input[type='submit']:hover{
+    background-color: rgb(255, 38, 74);
+    color: white;
+    border: none;
+}
+.sair1{
+    display: none;
+}
+@media (max-width:564px){
+    body{
+        height: 200vw;
+        left: -0.2vw;
+    }
+    h1{
+      
+        top: -5vw;
+        font-size: calc(8vw);
+        height: 30vw;
+        width: 100vw;
+        left: -1.9vw;
+    }
+    .location{
+        height: 7vw;
+        font-size: calc(5vw);
+        left: -1.9vw;
+        letter-spacing: 0.7vw;
+        top: -16vw;
+    }
+ input[type='text']{
+     width: 80vw;
+     height: 7vw;
+     margin: 2vw;
+     font-size: calc(4vw);
+ }
+ input[type='password']{
+    width: 80vw;
+    height: 7vw;
+    margin: 2vw;
+    font-size: calc(4vw);
+}
+input[type='submit']{
+    width: 82vw;
+    height: 8vw;
+    margin: 2vw;
+    font-size: calc(4vw);
+}
+ .sair{
+     display: none;
+ }
+ .info{
+     width: 80vw;
+     height: 15vw;
+ }
+ .frase{
+     top: 2vw;
+ }
+ h3{
+     font-size: calc(4.4vw);
+ }
+ form{
+     top: 8vw;
+ }
+ .sair1{
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: italic;
+     display: block;
+     text-decoration: none;
+     color: rgb(202, 12, 12);
+     position: relative;
+     top: -8vw;
+ }
+}

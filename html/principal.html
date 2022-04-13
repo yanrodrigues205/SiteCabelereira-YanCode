@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../fotos/logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../html/principal.css">
+    <title>Amanda Studios - Home</title>
+</head>
+<body>
+    <center>
+    <h1>Amanda Araújo / Agendamento</h1>
+   
+    <form  action="../php/agendar.php" method="post">
+       
+        <i class="selecione">Selecione o dia e a hora desejada para atendimento!</i><br><br>
+        <a id="ltr">Nome a atender</a><br> <input type="text" class="nome" name="nome" id="nome" required><br><br>
+        <a id="ltr">Dia</a><br><input type="date" name="dia" class="dia" id="dia" required><br><br>
+        <a id="ltr">Horário</a><br><input type="time" name="hr" class="hr" id="hr" required><br><br>
+        <i class="selecione">--==Especialidades==--</i><br><br>
+        <i class="list">--Cabelo:&nbsp;</i><input type="checkbox" name="cabelo"  value="sim" class="cabelo" id="cabelo" >
+        <i class="list">--Sombrancelha:&nbsp;</i><input type="checkbox" name="sombrancelha"  value="sim" class="sombrancelha" id="sombrancelha">
+        <i class="list">--Cilios:&nbsp;</i><input type="checkbox" name="cilios" value="sim" class="cilios" id="cilios">
+        <i class="list">--Unhas:&nbsp;</i><input type="checkbox" name="unhas" value="sim" class="unhas" id="unhas" >
+        <i class="list">--Make:&nbsp;</i><input type="checkbox" name="make" value="sim" class="make" id="make" ><br><br><br><br>
+
+   <input type="submit" value="Agendar!"><br><br><br><br>
+    </form>
+<a href="../html/index.html" class="sair">Sair</a>
+    </center>
+
+  
+
+</body>
+</html>

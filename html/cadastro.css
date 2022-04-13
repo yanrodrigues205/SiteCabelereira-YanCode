@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Hurricane&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,200;1,500&family=Montserrat:ital,wght@1,100&display=swap');
+
+body{
+    background: linear-gradient(170deg, rgb(105, 0, 18), rgb(255, 81, 110), rgb(250, 121, 141));
+    height: 105vh;
+}
+input[type="text"]{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    margin: 0.8vw;
+    border: solid 0.2vw rgb(0, 0, 0);
+    width: 17vw;
+    height: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-radius: 0.3vw;
+    font-size: calc(1vw);
+}
+input[type="password"]{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    margin: 0.8vw;
+    border: solid 0.2vw rgb(0, 0, 0);
+    width: 17vw;
+    height: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-radius: 0.3vw;
+    font-size: calc(1vw);
+}
+input[type="submit"]{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    margin: 0.8vw;
+    border: solid 0.2vw rgb(0, 0, 0);
+    width: 17vw;
+    height: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-radius: 0.3vw;
+    font-size: calc(1.1vw);
+}
+form{
+    position: relative;
+    top: 0;
+    background-color: transparent;
+    width: 32vw;
+    border: solid 0.2vw rgb(0, 0, 0);
+}
+i{
+    font-size: calc(1.3vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Hurricane', cursive;
+    font-style: initial;
+   position: relative;
+   top: 0;
+   font-size: calc(3vw);
+   letter-spacing: 0.2vw;
+}
+input[type="submit"]:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: rgb(179, 109, 68);
+}
+a{
+    position: relative;
+    color: rgb(126, 0, 59);
+    font-size: calc(1.5vw);
+    top: 2vw;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+a:hover{
+    text-decoration: underline;
+}
+#logo{
+    position: relative;
+    width: 15vw;
+    height: 9vw;
+}
+
+@media (max-width:564px) {
+    #logo{
+        width: 60vw;
+        height: 36vw;
+    }
+    form{
+        width: 96vw;
+        left: 0;
+    }
+    input[type='text']{
+        width: 86vw;
+        height: 6vw;
+        margin:3vw;
+        font-size: calc(5vw);
+        font-style: italic;
+    }
+    input[type='password']{
+        width: 86vw;
+        height: 6vw;
+        margin:3vw;
+        font-size: calc(5vw);
+        font-style: italic;
+    }
+    input[type='submit']{
+        width: 86vw;
+        height: 8vw;
+        margin:3vw;
+        font-size: calc(4vw);
+        font-style: italic;
+    }
+    i{
+        display: none;
+    }
+    h1{
+        font-size: calc(10vw);
+    }
+    a{
+        font-size: calc(6vw);
+        top: 7vw;
+    }
+}

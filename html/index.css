@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,200;1,500&family=Montserrat:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../fotos/maquiagem1.jpg");
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: calc(1.1vw);
+}
+i{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+}
+h1{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2vw;
+    padding:  3vw;
+    font-size: calc(2.7vw);
+}
+input[type="text"]{
+    background-color: transparent;
+    color: black;
+    margin: 0.8vw;
+    border: solid 0.1vw black;
+    width: 20vw;
+    height: 2.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: calc(1vw);
+    border-radius: 0.8vw;
+}
+input[type="password"]{
+    background-color: transparent;
+    color: black;
+    margin: 0.8vw;
+    border: solid 0.1vw black;
+    height: 2.3vw;
+    width: 20vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: calc(1vw);
+    border-radius: 0.8vw;
+}
+input[type="submit"]{
+    background-color: transparent;
+    border: solid 0.1vw black;
+    color: black;
+    height: 2.3vw;
+    width: 20vw;
+    margin: 2vw ;
+    border-radius: 0.8vw;
+    font-size: calc(0.9vw);
+   
+}
+input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+}
+a:hover{
+    text-decoration:underline;
+}
+#logo{
+    position: relative;
+    width: 15vw;
+    height: 9vw;
+}
+.direitos{
+    position: relative;
+    font-size: calc(1.4vw);
+    font-family: 'Josefin Sans', sans-serif;
+   letter-spacing: 0.1vw;
+   top: 12vw;
+}
+.link{
+    font-size: calc(1.4vw);
+}
+@media (max-width:564px) {
+    input[type='text']{
+        width: 90vw;
+        height: 10vw;
+        font-size: calc(5vw);
+        font-style: italic;
+        border-radius: 5vw;
+    }
+    input[type='password']{
+        width: 90vw;
+        height: 10vw;
+        font-size: calc(5vw);
+        font-style: italic;
+        border-radius: 5vw;
+    }
+    input[type='submit']{
+        width: 90vw;
+        height: 10vw;
+        font-size: calc(5vw);
+        font-style: italic;
+        border-radius: 5vw;
+        margin-top: 13vw;
+    }
+    h1{
+        font-size: calc(7vw);
+        margin-bottom: 13vw;
+    }
+    #logo{
+        width: 60vw;
+        height: 36vw;
+    }
+    .ltr{
+        position:relative;
+        display: block;
+        font-size: calc(5vw);
+        margin-top: 3vw;
+    }
+    .direitos{
+        font-size: calc(4.5vw);
+    }
+    .link{
+        font-size: calc(4.5vw);
+    }
+}
